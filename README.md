@@ -1,4 +1,4 @@
-# TFlearn deep learning library on top ofwith Tensorflow for ARM
+# TFlearn deep learning library on top of Tensorflow Docker image for ARM
 
 A [Docker](http://docker.com) image for ARM devices with [TFlearn](http://tflearn.org), a modular and transparent deep learning library built on top of [Tensorflow](https://www.tensorflow.org/). It was designed to provide a higher-level API to TensorFlow in order to facilitate and speed-up experimentations, while remaining fully transparent and compatible with it.
 Latest [Tensorflow 1.3.0](https://www.tensorflow.org/) an open source software library for numerical computation using data flow graphs that will let you play and learn distinct Machine Learning techniques over [Jupyter Notebook](http://jupyter.org/) an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. Computational Narratives as the Engine of Collaborative Data Science.   
