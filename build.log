@@ -1,0 +1,22 @@
+Sending build context to Docker daemon   2.56kB
+Step 1/3 : FROM elswork/rpi-tensorflow
+ ---> 66a4650e3e2f
+Step 2/3 : MAINTAINER Eloy Lopez <elswork@gmail.com>
+ ---> Running in 47126d8b12af
+ ---> c431df746b49
+Removing intermediate container 47126d8b12af
+Step 3/3 : RUN pip --no-cache-dir install git+https://github.com/tflearn/tflearn.git
+ ---> Running in 5f19a4b20fce
+Collecting git+https://github.com/tflearn/tflearn.git
+  Cloning https://github.com/tflearn/tflearn.git to /tmp/pip-oY_RA7-build
+Requirement already satisfied: numpy in /usr/local/lib/python2.7/dist-packages (from tflearn==0.3.2)
+Requirement already satisfied: six in /usr/lib/python2.7/dist-packages (from tflearn==0.3.2)
+Requirement already satisfied: Pillow in /usr/lib/python2.7/dist-packages (from tflearn==0.3.2)
+Installing collected packages: tflearn
+  Running setup.py install for tflearn: started
+    Running setup.py install for tflearn: finished with status 'done'
+Successfully installed tflearn-0.3.2
+ ---> 7298ff2274ca
+Removing intermediate container 5f19a4b20fce
+Successfully built 7298ff2274ca
+Successfully tagged elswork/rpi-tflearn:latest
